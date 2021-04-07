@@ -1,0 +1,30 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "Training on Web Testing Using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azfarhussain-10p/cypressTask.git"
+  },
+  "author": "Azfar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azfarhussain-10p/cypressTask/issues"
+  },
+  "homepage": "https://github.com/azfarhussain-10p/cypressTask#readme",
+  "dependencies": {
+    "cypress": "^7.0.0"
+  },
+  "devDependencies": {
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}
